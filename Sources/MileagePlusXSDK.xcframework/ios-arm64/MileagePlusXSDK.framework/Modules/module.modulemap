@@ -1,0 +1,11 @@
+framework module MileagePlusXSDK {
+  umbrella header "MileagePlusXSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module MileagePlusXSDK.Swift {
+  header "MileagePlusXSDK-Swift.h"
+  requires objc
+}

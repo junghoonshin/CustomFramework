@@ -1,0 +1,112 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MileagePlusXSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MileagePlusXSDK",
+        "printedName": "MileagePlusXSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MileagePlusXSDKAAV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s15MileagePlusXSDKAAV9configure6apiKeyySS_tFZ",
+            "moduleName": "MileagePlusXSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15MileagePlusXSDKAAV10doSomeWorkyyFZ",
+            "mangledName": "$s15MileagePlusXSDKAAV10doSomeWorkyyFZ",
+            "moduleName": "MileagePlusXSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15MileagePlusXSDKAAV",
+        "mangledName": "$s15MileagePlusXSDKAAV",
+        "moduleName": "MileagePlusXSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/junghoonshin\/Dropbox\/Development\/UAL\/MileagePlusXSDK\/iOS\/Framework\/MileagePlusXSDK\/MileagePlusXSDK\/MileagePlusXSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junghoonshin\/Dropbox\/Development\/UAL\/MileagePlusXSDK\/iOS\/Framework\/MileagePlusXSDK\/MileagePlusXSDK\/MileagePlusXSDK.swift",
+      "kind": "Array",
+      "offset": 234,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    },
+    {
+      "filePath": "\/Users\/junghoonshin\/Dropbox\/Development\/UAL\/MileagePlusXSDK\/iOS\/Framework\/MileagePlusXSDK\/MileagePlusXSDK\/MileagePlusXSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 32,
+      "value": "\"Please provide a valid API Key\""
+    },
+    {
+      "filePath": "\/Users\/junghoonshin\/Dropbox\/Development\/UAL\/MileagePlusXSDK\/iOS\/Framework\/MileagePlusXSDK\/MileagePlusXSDK\/MileagePlusXSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 24,
+      "value": "\"Doing some NEW work...\""
+    }
+  ]
+}
