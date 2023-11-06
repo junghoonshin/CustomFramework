@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MileagePlusXSDK",
+    name: "CustomFramework",
     platforms: [
         .iOS(.v15)
     ],
