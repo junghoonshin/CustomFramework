@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "CustomFramework",
+    name: "MileagePlusXSDK",
+    platforms: [
+        .iOS(.v15)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "CustomFramework",
-            targets: ["CustomFramework"]),
+            name: "MileagePlusXSDK",
+            targets: ["MileagePlusXSDK"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "CustomFramework"),
-        .testTarget(
-            name: "CustomFrameworkTests",
-            dependencies: ["CustomFramework"]),
+        .binaryTarget(
+            name: "MileagePlusXSDK",
+            path: "./Sources/MileagePlusXSDK.xcframework"
+        ),
     ]
 )
