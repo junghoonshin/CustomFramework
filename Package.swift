@@ -3,6 +3,7 @@
 
 import PackageDescription
 
+
 let package = Package(
     name: "CustomFramework",
     platforms: [
@@ -18,6 +19,6 @@ let package = Package(
         .binaryTarget(
             name: "MileagePlusXSDK",
             path: "./Sources/MileagePlusXSDK.xcframework"
-        ),
+        )
     ]
 )
